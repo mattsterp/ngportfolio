@@ -9,12 +9,14 @@ import { SharedModule } from './shared/shared.module';
 // Firebase imports
 import { AngularFireModule } from '@angular/fire';
 import { environment } from 'src/environments/environment';
+import { HomePageComponent } from './home-page/home-page.component';
 
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomePageComponent
   ],
   imports: [
     BrowserModule,
